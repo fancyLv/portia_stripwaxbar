@@ -1,0 +1,207 @@
+{
+    "extractors": {}, 
+    "id": "d3d0-4237-aff0", 
+    "name": "detail", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "7e17-47f7-b8f4", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "7e7e-4324-8769", 
+                    "selector": ".summary > div:nth-child(3)", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".summary > .product_title"
+                    ], 
+                    "container_id": "7e17-47f7-b8f4", 
+                    "data": {
+                        "67d6-4210-b09c": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "4796-4f41-9645", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "048d-4e71-9c4d", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "css", 
+                    "selector": ".summary > .product_title", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" summary \")]/*[contains(concat(\" \", @class, \" \"), \" product_title \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".summary .price  .woocommerce-Price-amount"
+                    ], 
+                    "container_id": "7e17-47f7-b8f4", 
+                    "data": {
+                        "6fa8-467d-92f3": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "85c8-4267-ab12", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "0182-497f-9bc0", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": true, 
+                    "required": [], 
+                    "selection_mode": "css", 
+                    "selector": ".summary .price  .woocommerce-Price-amount", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" summary .price  .woocommerce-Price-amount \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".summary > div:nth-child(3) > p:nth-child(2)"
+                    ], 
+                    "container_id": "7e17-47f7-b8f4", 
+                    "data": {
+                        "0bee-44bd-9d32": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "57f9-47d1-8a0b", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "35cb-44d9-818d", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "auto", 
+                    "selector": ".summary > div:nth-child(3) > p:nth-child(2)", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" summary \")]/div[3]/p[2]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".summary > div[itemprop=\"description\"] > p:nth-child(1)"
+                    ], 
+                    "container_id": "7e17-47f7-b8f4", 
+                    "data": {
+                        "15e3-4a36-87c9": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "d63f-4933-a783", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "9959-4956-a025", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": false, 
+                    "required": [], 
+                    "selection_mode": "css", 
+                    "selector": ".summary > div[itemprop=\"description\"] > p:nth-child(1)", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" summary \")]//p[1]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#content .images img"
+                    ], 
+                    "container_id": "7e17-47f7-b8f4", 
+                    "data": {
+                        "58eb-4838-84be": {
+                            "attribute": "src", 
+                            "extractors": {}, 
+                            "field": "a9fa-4078-a730", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "5bff-46df-bd35", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": true, 
+                    "required": [], 
+                    "selection_mode": "css", 
+                    "selector": "#content .images img", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[@id=\"content .images img\"]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "tbody > tr > .value option"
+                    ], 
+                    "container_id": "7e17-47f7-b8f4", 
+                    "data": {
+                        "b790-473a-8467": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "270f-4d79-9cd8", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "4454-4958-be3c", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": true, 
+                    "required": [], 
+                    "selection_mode": "css", 
+                    "selector": "tbody > tr > .value option", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//tbody/tr/*[contains(concat(\" \", @class, \" \"), \" value option \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".woocommerce-breadcrumb > a"
+                    ], 
+                    "container_id": "7e17-47f7-b8f4", 
+                    "data": {
+                        "a669-4a78-ae30": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "b939-49af-971c", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "23ef-4273-9605", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "repeated": true, 
+                    "required": [], 
+                    "selection_mode": "css", 
+                    "selector": ".woocommerce-breadcrumb > a", 
+                    "tagid": null, 
+                    "text-content": "content", 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" woocommerce-breadcrumb \")]/a"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "7e7e-4324-8769", 
+    "spider": "www.stripwaxbar.com", 
+    "url": "https://www.stripwaxbar.com/product/koral-pace-zip-front-jacket/", 
+    "version": "0.13.1"
+}

@@ -1,0 +1,77 @@
+{
+    "7e7e-4324-8769": {
+        "fields": {
+            "4796-4f41-9645": {
+                "id": "4796-4f41-9645", 
+                "name": "name", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "85c8-4267-ab12": {
+                "id": "85c8-4267-ab12", 
+                "name": "price", 
+                "required": false, 
+                "type": "price", 
+                "vary": false
+            }, 
+            "a697-4957-97bb": {
+                "id": "a697-4957-97bb", 
+                "name": "promotionprice", 
+                "required": false, 
+                "type": "price", 
+                "vary": false
+            }, 
+            "57f9-47d1-8a0b": {
+                "id": "57f9-47d1-8a0b", 
+                "name": "introduction", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "d63f-4933-a783": {
+                "id": "d63f-4933-a783", 
+                "name": "caption", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "a9fa-4078-a730": {
+                "id": "a9fa-4078-a730", 
+                "name": "images", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "270f-4d79-9cd8": {
+                "id": "270f-4d79-9cd8", 
+                "name": "size", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "fc5d-4715-82eb": {
+                "id": "fc5d-4715-82eb", 
+                "name": "sizes", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "647d-46b5-914b": {
+                "id": "647d-46b5-914b", 
+                "name": "field1", 
+                "required": false, 
+                "type": "raw html", 
+                "vary": false
+            }, 
+            "b939-49af-971c": {
+                "id": "b939-49af-971c", 
+                "name": "category", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }
+        }, 
+        "name": "stripDetailItem"
+    }
+}

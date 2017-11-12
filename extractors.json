@@ -1,0 +1,10 @@
+{
+    "edc6-4ff1-b534": {
+        "id": "edc6-4ff1-b534", 
+        "regular_expression": "<option value=\\\"(.*?)\\\" "
+    }, 
+    "aea2-4bb4-81c4": {
+        "id": "aea2-4bb4-81c4", 
+        "regular_expression": "option value=(.*?)>"
+    }
+}
